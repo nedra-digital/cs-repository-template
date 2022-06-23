@@ -1,2 +1,2 @@
-# repository-template
-Шаблонный репозиторий.
+# cs-repository-template
+Шаблонный репозиторий C#.
