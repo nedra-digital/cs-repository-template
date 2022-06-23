@@ -1,2 +1,4 @@
-# cs-repository-template
+# {{PRODUCT}}
 Шаблонный репозиторий C#.
+{{REPOSITORY}}
+{{AUTHORS}}
