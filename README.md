@@ -1,4 +1,4 @@
-# {{PRODUCT}}
+# PROJECT
 Шаблонный репозиторий C#.
-{{REPOSITORY}}
-{{AUTHORS}}
+https://github.com/nedra-digital/cs-repository-template
+karinskiy.andrey@gmail.com
