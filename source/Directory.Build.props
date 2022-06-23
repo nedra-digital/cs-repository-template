@@ -4,24 +4,24 @@
   <PropertyGroup>
 
     <!-- Product name information for assembly manifest. -->
-    <Product>{{PRODUCT}}</Product>
+    <Product>PROJECT</Product>
 
     <!-- A semicolon-separated list of packages authors, matching the profile names on nuget.org. 
     These are displayed in the NuGet Gallery on nuget.org and are used to cross-reference packages by the same authors. -->
-    <Authors>{{AUTHORS}}</Authors>
+    <Authors>karinskiy.andrey@gmail.com</Authors>
 
     <!-- Company name. 
     If not specified, the default value is AssemblyName. -->
-    <Company>{{COMPANY}}</Company>
+    <Company>nedra-digital</Company>
 
     <!-- Package reference to git repository. -->
-    <RepositoryUrl>https://github.com/{{COMPANY}}/{{PACKAGE}}</RepositoryUrl>
+    <RepositoryUrl>https://github.com/nedra-digital/</RepositoryUrl>
     
     <!-- Package/application icon. -->
     <PackageIcon>icon.png</PackageIcon>
 
     <!-- Copyright details for the package. -->
-    <Copyright>© $([System.DateTime]::Now.ToString('yyyy')) $(Company). All rights reserved.</Copyright>
+    <Copyright>ï¿½ $([System.DateTime]::Now.ToString('yyyy')) $(Company). All rights reserved.</Copyright>
 
     <!-- A long description for the assembly. 
     If PackageDescription is not specified, then this property is also used as the description of the package. -->
