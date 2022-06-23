@@ -32,7 +32,7 @@ jobs:
           key-path: '["component"]'
 
       - name: Display read-yaml output
-        run: echo "${{ steps.package-metadata.outputs.data }}"
+        run: echo "${{ steps.package-metadata.outputs.data.product }}"
         
       - name: Replace placeholders with environment variables
         uses: cschleiden/replace-tokens@v1.1
