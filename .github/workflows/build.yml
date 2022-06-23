@@ -13,6 +13,7 @@ env:
   COMPANY: nedra-digital
   AUTHORS: karinskiy.andrey@gmail.com
   PRODUCT: PROJECT
+  DOTNET: 6.0.x
   
 jobs:
   build:
@@ -52,3 +53,11 @@ jobs:
       - name: Show current version
         run:  
           echo ${{steps.nbgv.outputs.SemVer2}} 
+          
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: ${{env.DOTNET}}
+          source-url: https://nuget.pkg.github.com/${{env.COMPANY}}/index.json
+        env:
+          NUGET_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}     
