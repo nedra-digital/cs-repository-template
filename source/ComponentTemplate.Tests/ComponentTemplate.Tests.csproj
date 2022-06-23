@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\source\ComponentTemplate\ComponentTemplate.csproj" />
+    <ProjectReference Include="..\ComponentTemplate\ComponentTemplate.csproj" />
   </ItemGroup>
 
 </Project>
